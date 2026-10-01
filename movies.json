@@ -1,0 +1,409 @@
+{
+  "movies": [
+    {
+      "id": 24,
+      "title": "Dhurandhar - Part 2",
+      "poster": "https://image.tmdb.org/t/p/original/z1dGYCdc8imuQ6LFkd9moc0zaBe.jpg",
+      "category": "Hindi",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/cae1deeaac00ee8"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Dhurandhar - Part 1",
+      "poster": "https://i.imgbd.org/poster_rk071769895648.jpg",
+      "category": "Hindi",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/883202ae084a2c2"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Proshnouttor",
+      "poster": "https://i.imgbd.org/poster_t2yg1778085495.jpg",
+      "category": "Bangla",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/ef1f0103e73e015"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Pother Pechal",
+      "poster": "https://i.imgbd.org/poster_pj6t1778094980.jpg",
+      "category": "Bangla",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/dd3d19dcc9b88bc"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Bhooth Bangla",
+      "poster": "https://i.imgbd.org/poster_n0k91776422813.jpg",
+      "category": "Hindi",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": true,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/44e3eec96a0e36d"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Star Wars: Maul - Shadow Lord",
+      "poster": "https://image.tmdb.org/t/p/w300/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg",
+      "category": "English",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "series",
+      "totalEpisodes": 4,
+      "downloads": [
+        {
+          "quality": "720p",
+          "episode": "Episode 1",
+          "url": "https://mcloud.guru/523d27fca0e2003"
+        },
+        {
+          "quality": "720p",
+          "episode": "Episode 2",
+          "url": "https://mcloud.guru/6c2c9b846010728"
+        },
+        {
+          "quality": "720p",
+          "episode": "Episode 3",
+          "url": "https://mcloud.guru/e881c13d85158f5"
+        },
+        {
+          "quality": "720p",
+          "episode": "Episode 4",
+          "url": "https://mcloud.guru/62cd285a8c68f05"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "BTS: The Return",
+      "poster": "https://i.imgbd.org/poster_3t7i1774608387.png",
+      "category": "Dual Audio",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/36f1cc99b745a65"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Louis Theroux: Inside the Manosphere",
+      "poster": "https://image.tmdb.org/t/p/w300/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
+      "category": "Dual Audio",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/7c42b74f235456b"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "The Red Line",
+      "poster": "https://image.tmdb.org/t/p/w300/q3ROA6OqVA9rWSsC2DzdkPQvxWW.jpg",
+      "category": "Dual Audio",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/7030cf62c546f80"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Jana Nayagan - Hindi Not Available",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDc0NTEzMjYtOWExZS00M2EwLTk5MzgtOTMxYTg3NmMxZmMzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "category": "Tamil",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/8e3a7070f7e40b6"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Killer Whale",
+      "poster": "https://image.tmdb.org/t/p/original/a7T82M3neKPDyttHaJkbBIqQpwv.jpg",
+      "category": "Dual Audio",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/19cc9aae6933dea"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Beneath the Storm",
+      "poster": "https://i.imgbd.org/poster_zo8k1775827864.jpg",
+      "category": "Dual Audio",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/f64783e75e97175"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Project Hail Mary",
+      "poster": "https://image.tmdb.org/t/p/original/gK2Qp7XywbzdIFNSPavEWlqw1DA.jpg",
+      "category": "Dual Audio",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/e9127a33291dfc6"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Crime 101",
+      "poster": "https://i.imgbd.org/poster_l94h1772560631.jpg",
+      "category": "Dual Audio",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/ab7672d149e9c45"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "The Truce",
+      "poster": "https://image.tmdb.org/t/p/w300/gk3VVTTRWVhuAVpuxJrGKCKBat5.jpg",
+      "category": "Dual Audio",
+      "year": 2025,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/e0151ea9276bedd"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "The Carpenter's Son",
+      "poster": "https://image.tmdb.org/t/p/original/2Q44ofC6V9k6vJFToFwpwX86YUn.jpg",
+      "category": "Dual Audio",
+      "year": 2025,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/fe4746a6d1335dd"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Funky",
+      "poster": "https://i.imgbd.org/poster_mb4t1773340699.jpg",
+      "category": "Hindi Dubbed",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/6d84a486cce65d9"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Made in Korea",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDc5ZmMxZDgtYjVhOC00NjA2LTllMTYtYTQzZGZlNDM5NDIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "category": "Hindi Dubbed",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/2e7016037bf7d4e"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Young Sherlock [S1]",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMGY1NGJkOTAtM2RmNC00NWI3LWJkY2EtYjU1YmY5OGFjN2RjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "category": "Dual Audio",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "series",
+      "totalEpisodes": 6,
+      "downloads": [
+        {
+          "quality": "1080p",
+          "episode": "Complete Season",
+          "url": "https://mcloud.guru/c0dda7e9d9e65e7"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Wonder Man [S1]",
+      "poster": "https://image.tmdb.org/t/p/w300/6yy9nQlFt2l6UVWzrfhszFCaZ5C.jpg",
+      "category": "Dual Audio",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "series",
+      "totalEpisodes": 8,
+      "downloads": [
+        {
+          "quality": "1080p",
+          "episode": "Complete Season",
+          "url": "https://mcloud.guru/58b587d622a7418"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Kirtaner Por Kirtan",
+      "poster": "https://i.imgbd.org/poster_h2em1769253620.jpg",
+      "category": "Bangla",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/444d0d80732e1ee"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Tiffin Box",
+      "poster": "https://i.imgbd.org/poster_47l81770738064.jpg",
+      "category": "Bangla",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/0d4316fce64a6f8"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "People We Meet on Vacation",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDIxZTEzZmUtZDI4OC00MWI4LWIwZTgtYTBkY2UxMGY1NTZkXkEyXkFqcGc@._V1_.jpg",
+      "category": "Dual Audio",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/9ac6d9b0296095c"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "The Big Fake",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzk1MmRiODctMGFkMy00MTlmLTgyZjQtYTc1MWUyZjU5MTU4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "category": "Dual Audio",
+      "year": 2026,
+      "isNew": true,
+      "isHallPrint": false,
+      "contentType": "movie",
+      "downloads": [
+        {
+          "quality": "1080p",
+          "url": "https://mcloud.guru/3cb89078223da96"
+        }
+      ]
+    }
+  ]
+    }
