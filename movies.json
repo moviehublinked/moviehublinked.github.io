@@ -2,9 +2,9 @@
   "movies": [
     {
       "id": 24,
-      "title": "Dhurandhar - Part 2",
-      "poster": "https://image.tmdb.org/t/p/original/z1dGYCdc8imuQ6LFkd9moc0zaBe.jpg",
-      "category": "Hindi",
+      "title": "Hokum",
+      "poster": "https://cdn.movielinkbd.app/poster_d8r11790719200.jpg",
+      "category": "Dual Audio",
       "year": 2026,
       "isNew": true,
       "isHallPrint": false,
@@ -12,15 +12,15 @@
       "downloads": [
         {
           "quality": "1080p",
-          "url": "https://mcloud.guru/cae1deeaac00ee8"
+          "url": "https://fsldownload.com/d/rmf62rbvoUFgUlI8.6Rmg26b9EmWVL1DlaOO6SNgqAe6XwBIPn-o3TRTqWvs6wCUwKvYmd0R759Ry-DEu6OgjFItXs4UBhGTf-5WaUL1NdZjh8os_5umI0YwBm02IDwIfIxYhOQGuTZHEjzCNHCs3v2W7SZfRrsCO_bC6X2zDJJnyFIscf7Ox8c8kiBc_zk3_pBfaXNVQsRMf17elPkP_5r08A5Qw77oYVyLpqobgn_vRLR-Q.H4jUdmbL-OtBgLax9Ornaw"
         }
       ]
     },
     {
       "id": 23,
-      "title": "Dhurandhar - Part 1",
-      "poster": "https://i.imgbd.org/poster_rk071769895648.jpg",
-      "category": "Hindi",
+      "title": "One Night Only",
+      "poster": "https://cdn.movielinkbd.app/tmdb/original/5HkrK2U1n1cQMymG7sIJ2XbEZPi.jpg",
+      "category": "Dual Audio",
       "year": 2026,
       "isNew": true,
       "isHallPrint": false,
@@ -28,7 +28,7 @@
       "downloads": [
         {
           "quality": "1080p",
-          "url": "https://mcloud.guru/883202ae084a2c2"
+          "url": "https://fe35wb.movielinkbd.li/file/BCzpEH0BONKDnLAu3SeQZCGGJYTW16ennnCnjSlvm0WFdnUVMr1BTkrUqCtALE6U9JflZDS5VC4meedCX1coQutoiha2HXojtiQ3d10is0zdanE"
         }
       ]
     },
