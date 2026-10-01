@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieHouse - Download Latest Movies</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main Website Content -->
+    <div class="main-content" id="mainContent">
+        <header class="main-header">
+            <div class="logo">MOVIE<span>HOUSE</span></div>
+        </header>
+
+        <div class="category-section">
+            <h2><i class="fas fa-list"></i> Browse Categories</h2>
+            <div class="category-nav">
+                <div class="nav-item home active">HOME</div>
+                <div class="nav-item">BANGLA</div>
+                <div class="nav-item">BANGLA DUBBED</div>
+                <div class="nav-item">HINDI</div>
+                <div class="nav-item">HINDI DUBBED</div>
+                <div class="nav-item">DUAL AUDIO</div>
+                <div class="nav-item">ENGLISH</div>
+                <div class="nav-item">ANIMATION</div>
+            </div>
+        </div>
+
+        <div class="search-section">
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" class="search-input" id="searchInput" placeholder="Search movies..." aria-label="Search movies">
+                    <button class="search-btn" id="searchBtn" aria-label="Search">
+                        <i class="fas fa-search"></i> Search
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="welcome-message">
+                <h2>মুভি হাউজ সাইটে স্বাগতম</h2>
+                <p>এই ওয়েবসাইটটি শুধু সিনেমার ডাউনলোডের জন্য নয়, এটি তৈরি করা হয়েছে তোমাদের বিনোদনের কথা মাথায় রেখে। আশা করি, এখানে এসে তোমরা নতুন কিছু খুঁজে পাবে। এডমিন- তারতিল হোসাইন</p>
+            </div>
+
+            <div class="controls">
+                <div class="control-btn" id="onlyNewBtn">
+                    <i class="fas fa-star"></i> Only New
+                </div>
+                <button class="request-btn" id="requestMovieBtn">
+                    <i class="fas fa-plus-circle"></i> Request Movie
+                </button>
+            </div>
+
+            <h2 class="section-title" id="moviesTitle"><i class="fas fa-film"></i> RECENTLY RELEASED MOVIES</h2>
+            
+            <!-- Loading spinner for movie grid -->
+            <div class="loading-spinner" id="movieLoadingSpinner" style="display: none;">
+                <i class="fas fa-spinner fa-spin"></i> Loading movies...
+            </div>
+            
+            <div class="movie-grid" id="movieGrid"></div>
+
+            <div class="no-results" id="noResults" style="display: none;">
+                <i class="fas fa-search"></i>
+                <h3>No Movies Found</h3>
+                <p>We couldn't find any movies matching your search. Try different keywords or browse the categories.</p>
+            </div>
+
+            <!-- Compact Pagination -->
+            <div class="pagination-wrapper">
+                <div class="da-pagination" id="daPagination">
+                    <ul>
+                        <span class="active" id="activePill"></span>
+                        <li class="arrow left" id="prevPage">
+                            <svg width="14px" height="6px" viewBox="0 0 14 6" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                                    <g transform="translate(-220.000000, -3189.000000)" stroke="#4379FF">
+                                        <g transform="translate(161.000000, 2966.000000)">
+                                            <g transform="translate(2.000000, 215.000000)">
+                                                <polyline points="58 8 64 14 70 8"></polyline>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </li>
+                        <li class="current" data-page="1">1</li>
+                        <li data-page="2">2</li>
+                        <li data-page="3">3</li>
+                        <li data-page="4">4</li>
+                        <li class="arrow right" id="nextPage">
+                            <svg width="14px" height="6px" viewBox="0 0 14 6" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                                    <g transform="translate(-220.000000, -3189.000000)" stroke="#4379FF">
+                                        <g transform="translate(161.000000, 2966.000000)">
+                                            <g transform="translate(2.000000, 215.000000)">
+                                                <polyline points="58 8 64 14 70 8"></polyline>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Movie Modal -->
+        <div class="modal" id="movieModal" aria-hidden="true">
+            <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalMovieTitle">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="modalMovieTitle">Movie Title</h2>
+                    <button class="close-modal" id="closeModal" aria-label="Close modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-poster-container">
+                        <img id="modalMoviePoster" src="" alt="Movie Poster" class="modal-poster" onerror="handleImageError(this)">
+                        <div class="hall-print-badge" id="modalHallPrintBadge">Hall Print</div>
+                    </div>
+                    <div class="modal-movie-details" id="modalMovieInfo"></div>
+                    <h3 style="margin: 20px 0 10px; font-size: 20px; color: var(--primary);">Download Link</h3>
+                    <div class="download-options" id="downloadOptions"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Request Modal -->
+        <div class="modal" id="requestModal" aria-hidden="true">
+            <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="requestModalTitle">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="requestModalTitle">Request a Movie</h2>
+                    <button class="close-modal" id="closeRequestModal" aria-label="Close modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form id="requestMovieForm" novalidate>
+                        <div class="form-group">
+                            <label class="required" for="requestTitle">Movie/Series Name</label>
+                            <input type="text" id="requestTitle" required aria-describedby="titleError">
+                            <div class="error-message" id="titleError" role="alert">Please enter movie/series name</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="required" for="requestYear">Year of Release</label>
+                            <input type="number" id="requestYear" min="1900" max="2026" required aria-describedby="yearError">
+                            <div class="error-message" id="yearError" role="alert">Please enter a valid year between 1900-2026</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="requestDetails">Additional Details (Optional)</label>
+                            <textarea id="requestDetails" rows="4" placeholder="Any specific details about the movie/series..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-request-btn" aria-label="Submit movie request">Submit Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-logo">MOVIE<span>HOUSE</span></div>
+            <p style="font-size: 16px; color: #666;">Destination for latest movie downloads</p>
+            <div class="copyright">
+                &copy; 2026 MOVIEHOUSE — All Rights Reserved.
+            </div>
+        </footer>
+
+        <button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+    </div>
+
+    <!-- SVG Filter for Pagination -->
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="position: absolute; width: 0; height: 0;">
+        <defs>
+            <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+                <feBlend in="SourceGraphic" in2="goo" />
+            </filter>
+        </defs>
+    </svg>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+    
+    <!-- AI Movie Companion Bot -->
+    <script src="ai-companion.js"></script>
+</body>
+                          </html>
